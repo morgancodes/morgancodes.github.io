@@ -1,0 +1,111 @@
+body{
+	background-color:#fff;
+	color:#30304b;
+	font-family:'Montserrat',Arial,sans-serif;
+	font-weight:300;
+	font-size:17px;
+}
+/* HEADER */
+.morgan{
+	font-family:'Pacifico',Arial,sans-serif;
+	font-size:66px;
+	margin:10px 10px 60px;
+	text-align:center;
+	line-height:64px;
+}
+#email{
+	color:#507C3C;
+}
+/* MAILCHIMP FORM & BUTTON */
+#mc_embed_signup{
+	clear:left;
+	font:14px 'Montserrat',Arial,sans-serif;
+}
+#mc_embed_signup input.email{
+	font-family:'Roboto',Arial,sans-serif !important;
+	font-weight:300;
+	width:250px !important;
+	min-width:250px !important;
+}
+#mc_embed_signup form{
+	padding:0 !important;
+}
+#mc_embed_signup input.button{
+	width:250px !important;
+	height:40px;
+}
+#mc_embed_signup .button{
+	background-color:#507C3C !important;
+}
+#mc_embed_signup .button:hover{
+	background-color:#3A5A2B !important;
+}
+#button{
+	width:250px;
+	background-color:#507C3C;
+	color:#fff;
+	font-family:'Montserrat',Arial,sans-serif;
+}
+#button:hover{
+	background-color:#3A5A2B;
+}
+/* SOCIAL */
+#right_col{
+	width:320px;
+	min-width:320px;
+	flex:inherit;
+}
+.social *{
+	vertical-align:middle;
+}
+.social i{
+	font-size:60px;
+	color:#507C3C;
+	padding:0 2px;
+	transition:all 0.23s ease-in-out 0s;
+}
+#no_mar{
+	margin:0;
+}
+#cert{
+	width:auto;
+	height:56px;
+	margin-right:5px;
+}
+#social:hover{
+	color:#3A5A2B;
+}
+#copyright{
+	font-size:11px;
+	padding-top:10px;
+}
+/* BIO */
+h2{
+	font-family:'Roboto',Arial,sans-serif;
+}
+/* FOOTER */
+.pic_strip{
+	background-color:#30304b;
+	text-align:center;
+	margin:0 auto;
+	width:100%;
+	padding: 0 5px;
+}
+.pic_strip div{
+	margin:10px 5px;
+}
+.pic_strip img{
+	max-height:270px;
+}
+@media (max-width: 767px) {
+	#right_col *{
+		text-align:center;
+		margin-left:auto !important;
+		margin-right:auto !important;
+	}
+}
+@media (max-width: 516px) {
+	.morgan{
+		margin-bottom:40px;
+	}
+}
