@@ -59,6 +59,7 @@ body{
 	flex:inherit;
 }
 .social *{
+	margin-top:40px;
 	vertical-align:middle;
 }
 .social i{
@@ -67,8 +68,8 @@ body{
 	padding:0 2px;
 	transition:all 0.23s ease-in-out 0s;
 }
-#no_mar{
-	margin:0;
+#body_mar{
+	margin:0 0 30px;
 }
 #cert{
 	width:auto;
